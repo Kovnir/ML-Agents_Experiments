@@ -1,0 +1,7 @@
+python -m venv venv
+chmod +x activate
+./venv/bin/activate
+pip install mlagents
+pip install mlagents-envs
+
+mlagents-learn --run-id=TestNum
