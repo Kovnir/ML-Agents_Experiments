@@ -1,7 +1,24 @@
+--- setup virtual environment
 python -m venv venv
 chmod +x activate
-./venv/bin/activate
+
+source venv/bin/activate
+
+
+--- installing agents
+pythin -m pip install --upgrade pip
+pip install onnx
+pip install torch=1.7.0
 pip install mlagents
 pip install mlagents-envs
+pip show ****
+- fix for macos - set in setup.py "protobuf==3.20.2", "onnx==1.13.0", setup env, than mlagents
 
+
+--- star trainings
 mlagents-learn --run-id=TestNum
+mlagents-learn --force
+mlagents-learn MLConfigs/FindTarget.yaml
+- params doc: https://github.com/Unity-Technologies/ml-agents/blob/develop/docs/Training-Configuration-File.md
+
+tensorboard --logdir results
