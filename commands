@@ -15,7 +15,7 @@ pip show ****
 - fix for macos - set in setup.py "protobuf==3.20.2", "onnx==1.13.0", setup env, than mlagents
 
 
---- star trainings
+--- start trainings
 mlagents-learn --run-id=TestNum
 mlagents-learn --force
 mlagents-learn MLConfigs/FindTarget.yaml
