@@ -19,13 +19,15 @@ tensorboard --logdir results
 
 By default, TensorBoard will be accessible at [http://localhost:6006/](http://localhost:6006/)
 
+![TensorBoard](Doc/tf.png)
+
 
 ## Examples
 
 
 ### Example 1: Balancing Act
 
-![Balancing GIF](link-to-your-gif)
+![Balancing GIF](Doc/balance.gif)
 
 **Set-up**: The agent (green) must balance a structure on its head.
 
@@ -48,8 +50,6 @@ By default, TensorBoard will be accessible at [http://localhost:6006/](http://lo
 
 ### Example 2: Summation Wizard
 
-![Summation GIF](link-to-your-gif)
-
 **Set-up**: The agent learns to add two fractional numbers from 0 to 0.5 (yes, I know this is not really a Unity task, nor a reinforcement learning task, nor even an ML task, but hey).
 
 **Algorithm**: [Proximal Policy Optimization (PPO)](https://en.wikipedia.org/wiki/Proximal_policy_optimization)
@@ -68,7 +68,7 @@ By default, TensorBoard will be accessible at [http://localhost:6006/](http://lo
 
 ### Example 3: Target Finder
 
-![Target Finder GIF](link-to-your-gif)
+![Target Finder GIF](Doc/findtarget.gif)
 
 **Set-up**: The agent must find a direct path to the target within 10 seconds. No extra rewards for quick finds.
 
